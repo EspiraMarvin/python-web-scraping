@@ -3,5 +3,5 @@
 #### 2. Requests / HTML-Requests - requests_scrape.py
 #### 3. Selenium - selenium_scrape.py
 
-#### 4. Scrapy - is located in the branch scrapy -> Available on scrapy branch
+#### 4. Scrapy - is located in the branch named scrapy 
 
