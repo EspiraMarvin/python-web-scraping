@@ -10,10 +10,11 @@ html_soup = BeautifulSoup(page_html, 'html.parser')
 
  # get book title
 for data in html_soup.select('ol'):
-    for a in data.find_all('a'):
-        print(a.get_text())
+    for price in data.find_all('a'):
+        print(price.get_text())
 
  # get book prices
 for price in html_soup.find_all("p", class_="price_color"):
     print(price.get_text())
+
 
